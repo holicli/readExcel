@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace : 企业管理的全路径 -->
+<mapper namespace="com.excel.demo.mapper.IndexMapper">
+    <insert id="setvalue" parameterType="map">
+        insert into dm.TM_KRMJ(SF,MLV,GGBZ,JYBZ)
+            values (1,1,1,1)
+    </insert>
+</mapper>
